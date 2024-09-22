@@ -1,0 +1,126 @@
+body{
+    padding: 150px 300px;
+    font-family: cursive;
+}
+.title{
+    font-size: 50px;
+    margin-bottom: -10px;
+    color: blue;
+}
+.mood-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: -30px;
+}
+.mood-title i{
+    font-size: 20px;
+    border: 3px solid black;
+}
+.mood-title h4{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.hr{
+    display: flex;
+}
+.hr1{
+    height: 4px;
+    width: 130px;
+    background: black;
+}
+.hr2{
+    height: 3px;
+    width: 100%;
+    background: rgb(188, 184, 184);
+}
+.item-box{
+    margin-top: 25px;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+.data-item-box{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+.item{
+    border: 2px solid gray;
+    padding: 15px 25px;
+    width: 250px;
+    background-color: rgba(127, 255, 212, 0.357);
+}
+.item .day-id{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -30px;
+}
+.item-new{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.item-new .new-sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.item-new .addMood-form{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.item-new .addMood-form input ,.item-new .addMood-form select{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.item-new .addMood-form button{
+    border: none;
+    padding: 5px 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.item-new .addMood-form button:hover{
+    background-color: rgb(31, 153, 112);
+    color: white;
+}
+.item .mood-view{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -30px;
+    margin-bottom: -20px;
+}
+
+#clearBtn{
+    border: none;
+    padding: 5px 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}

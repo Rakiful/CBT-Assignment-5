@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <h1 class="title">Mood Tracker</h1>
+    <div class="mood-title">
+        <i class='bx bxs-grid-alt' ></i>
+        <h4>Mood</h4>
+    </div>
+    <div class="hr">
+        <div class="hr1">
+        </div>
+        <div class="hr2">
+        </div>
+    </div>
+    <div class="item-box">
+        <div class="data-item-box">
+        <!-- <div class="item">
+            <div class="day-id">
+                <i class='bx bxs-calendar' ></i>
+                <p>Day 1 (February 27)</p>
+            </div>
+            <p>August 16,2022 7:35 AM</p>
+            <div class="mood-view">
+                <i class='bx bx-happy' ></i>
+                <p>Happy</p>
+            </div>
+        </div> -->
+        
+        </div>
+        <div class="item item-new">
+            <div class="new-sign">
+                <h3>+</h3>
+                <h4>New</h4>
+            </div>
+
+            <form class="addMood-form">
+                <input id="date" name="date" type="date" required>
+                <select name="select-mood" id="selectMood" required>
+                    <option value="" selected disabled hidden>Select Your Mood</option>
+                    <option value="Happy">Happy</option>
+                    <option value="Sad">Sad</option>
+                    <option value="Angry">Angry</option>
+                    <option value="Neutral">Neutral</option>
+                    <option value="Anxious">Anxious</option>
+                    <!-- <option value=""></option> -->
+                </select>
+                <button>Add Mood</button>
+            </form>
+        </div>
+        <button id="clearBtn">Clear</button>
+    </div>
+
+    <div class="hr">
+        <div class="hr2">
+        </div>
+    </div>
+    
+
+
+
+    <!-- Externel Java Script  -->
+    <script src="script.js"></script>
+</body>
+</html>
