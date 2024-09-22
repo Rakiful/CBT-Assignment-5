@@ -57,6 +57,9 @@ addMoodForm.addEventListener('submit',function(){
             </div>
     `
     getParent.appendChild(newDiv);
+
+    document.querySelector(".new-sign").style.display="flex"
+    document.querySelector(".addMood-form").style.display="none"
 });
 
 document.getElementById("clearBtn").addEventListener('click',function(){
